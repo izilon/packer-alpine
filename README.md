@@ -1,8 +1,9 @@
 # packer-alpine
 
 Packer template for alpine linux
+
 **http folder** provides the answer files for automatic installation. Edit the file to configure your options like Keyboard Layout.
-  For more information check [setup-alpine](https://docs.alpinelinux.org/user-handbook/0.1a/Installing/setup_alpine.html)
+For more information check [setup-alpine](https://docs.alpinelinux.org/user-handbook/0.1a/Installing/setup_alpine.html)
 
 Build a virtual machine image for [Alpine linux](https://www.alpinelinux.org) using [Packer](https://www.packer.io).
 
