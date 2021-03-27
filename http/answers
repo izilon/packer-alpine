@@ -2,10 +2,10 @@
 # If you don't want to use a certain option, then comment it out
 
 # Use US layout with US variant
-KEYMAPOPTS="us us"
+KEYMAPOPTS="pt pt"
 
 # Set hostname to alpine
-HOSTNAMEOPTS="-n alpine"
+HOSTNAMEOPTS="-n alpine-testing"
 
 # Contents of /etc/network/interfaces
 INTERFACESOPTS="auto lo
@@ -13,6 +13,7 @@ iface lo inet loopback
 
 auto eth0
 iface eth0 inet dhcp
+    hostname alpine-testing
 "
 
 # Search domain of example.com, Google public nameserver
